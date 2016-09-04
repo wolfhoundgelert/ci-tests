@@ -1,7 +1,5 @@
 package;
 
-import neko.Lib;
-
 /**
  * ...
  * @author gelert
