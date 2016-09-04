@@ -4,12 +4,12 @@ language: haxe
 # Let's enable both linux and mac builds because why not?
 os:
   - linux
-  - osx
+  # - osx
 
 # Test with Haxe 3.2.1 and Haxe development.
 haxe:
   - "3.2.1"
-  - development
+  # - development
 
 matrix:
   # Allow Haxe development to fail.
@@ -72,7 +72,7 @@ install:
   - haxelib list
 
 script:
-  - mkdir munit/build; mkdir munit/report
+  - mkdir munit/build; mkdir munit/report/test-runner
   - haxelib run munit run -neko
 #  - haxe build-interp.hxml
 # - haxe build-neko.hxml         && neko bin/HelloWorld.n
