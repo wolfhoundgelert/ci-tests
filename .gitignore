@@ -1,6 +1,0 @@
-bin/
-munit/*
-!munit/test.hxml
-src/ExampleTest.hx
-src/TestMain.hx
-src/TestSuite.hx
