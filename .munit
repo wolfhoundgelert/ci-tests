@@ -1,6 +1,6 @@
 version=2.1.2
-src=src
-bin=munit/build
-report=munit/report
-hxml=munit/test.hxml
+src=test
+bin=build
+report=report
+hxml=test.hxml
 classPaths=src
