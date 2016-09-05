@@ -72,7 +72,7 @@ install:
   - haxelib list
 
 script:
-   - haxelib run munit run -neko
+   - haxelib run munit test -neko
 #  - haxe build-interp.hxml
 # - haxe build-neko.hxml         && neko bin/HelloWorld.n
 #  - haxe build-js.hxml           && node bin/HelloWorld.js
