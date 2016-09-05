@@ -68,6 +68,7 @@ install:
 #    fi
 #  - haxelib install hxjava
 #  - haxelib install hxcs
+  - haxelib install hxcpp
   - haxelib install munit
   - haxelib install hamcrest
   - haxelib list
